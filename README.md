@@ -1,23 +1,16 @@
-🏦 JavaBank Pro - Meu primeiro projeto bancário real
-Fala pessoal! 👋 Esse aqui é o JavaBank Pro. Mais do que um simples projeto de estudos, ele é o resultado de horas batendo cabeça com o React para criar algo que fosse além de uma tela estática, buscando o visual e a lógica de um banco de verdade.
+# 🏦 JavaBank Pro - Construindo meu primeiro dashboard
 
-🌍 Por que o código está em inglês?
-Se você der uma olhada nos arquivos, vai ver que tudo foi escrito em inglês. Tomei essa decisão por dois motivos:
+Seja bem-vindo ao meu projeto! 👋 O **JavaBank Pro** nasceu da minha vontade de criar algo que parecesse um aplicativo de banco de verdade. Em vez de fazer apenas o básico, me desafiei a montar uma interface "fintech" usando **React** e conectar com a lógica de programação que venho estudando.
 
-Padrão de Mercado: No dia a dia de um dev, o inglês é a língua universal.
+## 🌍 Por que codar em inglês?
+Se você navegar pelo código, vai notar que as variáveis, funções e comentários estão todos em **inglês**. Decidi fazer isso por um motivo simples: **estou treinando meu inglês técnico**. Acredito que programar nesse idioma me ajuda a:
+* Me familiarizar com os padrões globais do mercado de tecnologia.
+* Expandir meu vocabulário enquanto resolvo problemas reais de código.
 
-Desafio Pessoal: Eu uso a programação para forçar meu cérebro a pensar em inglês, melhorando meu vocabulário técnico enquanto construo algo útil.
+## 🚀 O que este projeto faz?
+* **Saldo que atualiza na hora**: Usei o estado do React para que o valor mude instantaneamente ao clicar nos botões.
+* **Visual "Premium"**: Foquei em um design escuro com um cartão roxo elegante para dar aquela cara de app profissional.
+* **Lógica de Segurança**: O sistema não deixa você sacar mais do que o saldo disponível. Segurança em primeiro lugar!.
 
-🚀 O que eu consegui implementar aqui
-Saldo que funciona de verdade: Usei useState do React para que, ao clicar em depositar ou sacar, o saldo mude na hora sem precisar dar refresh na página.
-
-Design "Fintech": Queria algo que parecesse um app moderno, então usei tons escuros e um cartão com gradiente roxo (aquele estilo Glassmorphism).
-
-Trava de Segurança: O código não te deixa sacar o que você não tem. Se tentar tirar mais do que o saldo atual, o sistema te barra.
-
-Histórico de Transações: Cada movimentação que você faz aparece listada embaixo, igualzinho ao extrato do seu banco.
-
-🛠️ O que usei para construir
-No visual: React.js e muito CSS3 na mão.
-
-Na lógica por trás: Java e JavaScript.
+## 🛠️ Ferramentas que usei
+No front-end usei **React.js** e **JavaScript**. No estilo, usei **CSS3** puro para deixar tudo com o meu jeito.
