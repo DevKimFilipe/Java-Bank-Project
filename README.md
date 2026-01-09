@@ -1,21 +1,23 @@
-# Projeto Bancário Java 🏦
+🏦 JavaBank Pro - Meu primeiro projeto bancário real
+Fala pessoal! 👋 Esse aqui é o JavaBank Pro. Mais do que um simples projeto de estudos, ele é o resultado de horas batendo cabeça com o React para criar algo que fosse além de uma tela estática, buscando o visual e a lógica de um banco de verdade.
 
-Um sistema bancário simples e funcional desenvolvido em Java para demonstrar conceitos de Programação Orientada a Objetos (POO).
+🌍 Por que o código está em inglês?
+Se você der uma olhada nos arquivos, vai ver que tudo foi escrito em inglês. Tomei essa decisão por dois motivos:
 
-## 🌍 Sobre o Idioma do Código
-Este projeto foi escrito inteiramente em **inglês**. Optei por codar nesse idioma para aprimorar meus conhecimentos técnicos e me familiarizar com os padrões globais de desenvolvimento de software.
+Padrão de Mercado: No dia a dia de um dev, o inglês é a língua universal.
 
-## 🚀 Funcionalidades
-- **Consulta de Saldo**: Visualização do saldo atual da conta.
-- **Depósito**: Adição de fundos de forma segura.
-- **Saque**: Retirada de valores com validação de saldo disponível.
-- **Encapsulamento**: Proteção de dados sensíveis usando atributos privados e métodos públicos (getters/setters).
+Desafio Pessoal: Eu uso a programação para forçar meu cérebro a pensar em inglês, melhorando meu vocabulário técnico enquanto construo algo útil.
 
-## 💻 Tecnologias Utilizadas
-- **Java**: Linguagem principal.
-- **VS Code**: IDE utilizada para o desenvolvimento.
-- **Git & GitHub**: Controle de versão e hospedagem do código.
+🚀 O que eu consegui implementar aqui
+Saldo que funciona de verdade: Usei useState do React para que, ao clicar em depositar ou sacar, o saldo mude na hora sem precisar dar refresh na página.
 
-## 📖 Como executar
-1. Clone este repositório.
-2. Compile e execute o arquivo `Main.java`.
+Design "Fintech": Queria algo que parecesse um app moderno, então usei tons escuros e um cartão com gradiente roxo (aquele estilo Glassmorphism).
+
+Trava de Segurança: O código não te deixa sacar o que você não tem. Se tentar tirar mais do que o saldo atual, o sistema te barra.
+
+Histórico de Transações: Cada movimentação que você faz aparece listada embaixo, igualzinho ao extrato do seu banco.
+
+🛠️ O que usei para construir
+No visual: React.js e muito CSS3 na mão.
+
+Na lógica por trás: Java e JavaScript.
