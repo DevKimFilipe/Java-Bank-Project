@@ -31,3 +31,5 @@ public class Main {
         input.close();
     }
 }
+
+myAccount.displayStatement();
