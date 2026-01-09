@@ -2,33 +2,45 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Scanner to read user input from the console
         Scanner input = new Scanner(System.in);
-
-        // 1. ACCOUNT CREATION
-        // Creating the account with your dev name and an initial balance
         BankAccount myAccount = new BankAccount("DevKimFilipe", 1000.0);
-        
-        System.out.println("Welcome to the Java Bank System!");
-        System.out.println("Account holder: " + myAccount.getHolder());
-        System.out.println("Initial Balance: $" + myAccount.getBalance());
+        int option;
 
-        // 2. DEPOSIT LOGIC
-        System.out.print("\nEnter amount to deposit: ");
-        double depositAmount = input.nextDouble();
-        myAccount.deposit(depositAmount);
+        do {
+            System.out.println("\n--- JAVA BANK MENU ---");
+            System.out.println("1. Check Balance");
+            System.out.println("2. Deposit");
+            System.out.println("3. Withdraw");
+            System.out.println("4. View Statement");
+            System.out.println("0. Exit");
+            System.out.print("Choose an option: ");
+            option = input.nextInt();
 
-        // 3. WITHDRAW LOGIC
-        System.out.print("\nEnter amount to withdraw: ");
-        double withdrawAmount = input.nextDouble();
-        myAccount.withdraw(withdrawAmount);
+            switch (option) {
+                case 1:
+                    System.out.println("Current Balance: $" + myAccount.getBalance());
+                    break;
+                case 2:
+                    System.out.print("Enter deposit amount: ");
+                    double dep = input.nextDouble();
+                    myAccount.deposit(dep);
+                    break;
+                case 3:
+                    System.out.print("Enter withdraw amount: ");
+                    double wit = input.nextDouble();
+                    myAccount.withdraw(wit);
+                    break;
+                case 4:
+                    myAccount.displayStatement();
+                    break;
+                case 0:
+                    System.out.println("Exiting... Thank you!");
+                    break;
+                default:
+                    System.out.println("Invalid option! Try again.");
+            }
+        } while (option != 0);
 
-        // 4. FINAL STATEMENT (The new feature!)
-        // This will print the entire history of transactions
-        myAccount.displayStatement();
-
-        // Closing the scanner to release memory
         input.close();
-        System.out.println("\nThank you for using our banking system!");
     }
 }

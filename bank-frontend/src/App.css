@@ -1,0 +1,78 @@
+:root {
+  --primary: #8b5cf6;
+  --bg-dark: #0f172a;
+  --card-bg: #1e293b;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+.App {
+  background-color: var(--bg-dark);
+  min-height: 100vh;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.main-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-visual {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  padding: 30px;
+  border-radius: 24px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+}
+
+.action-center input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.deposit { background: var(--success); color: white; }
+.withdraw { background: #334155; color: white; border: 1px solid var(--primary); }
+
+.transaction-item {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.positive { color: var(--success); }
+.negative { color: var(--danger); }
